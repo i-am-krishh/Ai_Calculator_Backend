@@ -1,0 +1,48 @@
+# Python-specific files and directories
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+env/
+venv/
+.venv/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.bak
+*.swo
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Log files and temporary files
+*.log
+*.tmp
+*.temp
+
+# Database files (if applicable)
+*.sqlite3
+*.db
+*.db-journal
+
+# Environment variables and sensitive data
+.env
+.flaskenv
+instance/
+
+# FastAPI specific
+# If you are generating client code or documentation,
+# you might want to ignore those output directories.
+# For example:
+# generated_client/
+# docs/
