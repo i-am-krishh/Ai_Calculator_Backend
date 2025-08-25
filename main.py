@@ -13,7 +13,7 @@ app = FastAPI(lifespan=lifespan)
 
 
 origins = [
-    "http://localhost:5173",
+    "https://ai-calculator-frontend-psi.vercel.app/",
     "http://localhost:3000",
     "http://127.0.0.1:5173",
     "*"
